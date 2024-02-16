@@ -1,0 +1,47 @@
+.contact-page-container {
+  /* width: 1366px; */
+  background-color: #250821;
+  padding: 2rem;
+}
+
+.contact-page-container {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "raleway";
+  color: #d56f56;
+}
+
+.contact-form {
+  width: 500px;
+  margin: auto;
+}
+
+.contact-page-container p {
+  font-size: 14px;
+  color: aqua;
+  padding: 1rem;
+  font-family: "poppins";
+}
+
+.contact-page-container .send-button {
+  padding: 10px 20px;
+  margin: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  animation: slideIn 2.5s forwards;
+  -webkit-transition: all 1s ease-in;
+}
+
+.send-button:hover {
+  -webkit-animation-direction: var(Start= "left" to= "right");
+  background-color: chocolate;
+}
+
+@keyframes slideOut {
+  0% {
+    left: -100%; /* Start off-screen to the left */
+  }
+  100% {
+    left: 0; /* End at the original position */
+  }
+}

@@ -1,0 +1,69 @@
+.home-page {
+  /* width: 1366px; */
+}
+
+.home-page-container {
+  background-color: #232323;
+  padding: 2rem 16rem;
+  color: #fff;
+}
+
+.home-page-container span {
+  width: 500px;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #464646;
+}
+
+.home-page-container h1 {
+  /* width: 360px; */
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.home-page-container{
+    background-color: #1F1F1F;
+    
+}
+
+.home-page-about-container h1::before{
+    content: "About";
+    width: 40px;
+    padding: 1rem;    
+}
+
+.about-me-image{
+    padding: 0 18rem;
+    gap: 2rem;
+    display: flex;
+
+}
+.home-page-about-container img{
+    width: 300px;
+}
+
+.right-content{
+    width: 600px;
+}
+
+.home-page-container h3{
+    font-size: 20px;
+    padding: 2rem 0;    
+    font-family: "poppins";
+}
+.home-page-container .namediv{
+    font-size: 20px;
+    color: #D97B55;    
+}
+
+.home-page-container p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 1rem 0;
+    color: #fff;
+}

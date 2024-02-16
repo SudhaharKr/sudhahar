@@ -1,0 +1,57 @@
+.works-page-container {
+  background-color: #202020;
+}
+
+.works-page-container h2 {
+  padding: 2rem;
+  text-align: center;
+  color: #d56f56;
+  font-size: 2.6rem;
+  font-family: "raleway";
+}
+
+.tabslist {
+  /* color: #fff; */
+  background-color: #fff;
+  font-family: "poppins";
+}
+
+.tabs-all-panel,
+.tabs-css-panel,
+.tabs-javascript-panel,
+.tabs-react-panel {
+  /* width: 1300px; */
+  display: flex;
+  background-color: #202020;
+  margin: auto;
+}
+
+.container-one,
+.container-two,
+.container-three {
+  padding: 3rem 0;
+}
+
+.one {
+  width: 430px;
+  height: 40vh;
+  padding: 0 3rem;
+  margin: 1rem 0;
+}
+
+.two,
+.four {
+  width: 430px;
+  height: 40vh;
+  padding: 0 3rem;
+  margin: 1rem 0;
+}
+
+.tabs-javascript-panel {
+  width: 800px;
+}
+.three {
+  width: 400px;
+  height: 60vh;
+  padding: 0 1rem;
+}

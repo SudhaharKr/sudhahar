@@ -1,0 +1,119 @@
+.about-page-container {
+  /* width: 1360px; */
+  padding: 2rem 0;
+  background-color: #1f1f1f;
+}
+
+.about-page-container h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-family: "raleway";
+  color: #df725e;
+}
+
+.underline {
+  width: 300px;
+  text-decoration: 1px solid red underline;
+  margin-top: 2rem;
+}
+.about-page-container h2::after {
+  content: " Me";
+}
+
+.about-me-image {
+  width: 1200px;
+  margin: auto;
+  padding: 2rem 10rem;
+  gap: 2rem;
+  display: flex;
+}
+.about-page-container img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.right-content {
+  width: 500px;
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.about-page-container h3 {
+  font-size: 20px;
+  padding: 2rem 0;
+  font-family: "poppins";
+  color: #fff;
+}
+
+.about-page-container .namediv {
+  font-size: 20px;
+  color: #d97b55;
+}
+
+.about-page-container p{
+    font-family: "poppins";
+    text-align: justify;
+    color: #fff;
+}
+.info1{
+    display: flex;
+    padding: 1rem 0;
+    gap: 2rem;
+}
+
+.info1 p {
+  margin: 5px 0; /* Add margin to paragraphs */
+  font-family: poppins;
+}
+
+.info1 span {
+  font-weight: bold; /* Make span text bold */
+  color: #007bff; /* Blue color */
+  font-family: poppins;
+}
+.info2{
+    display: flex;
+    padding: 1rem 0;
+    gap: 8rem;
+}
+
+.info2 p {
+  margin: 5px 0; /* Add margin to paragraphs */
+  font-family: poppins;
+}
+
+.info2 span {
+  font-weight: bold; /* Make span text bold */
+  color: #007bff; /* Blue color */
+  font-family: poppins;
+}
+
+.about-page-education-container{
+    width: 660px;
+    margin: auto;
+    border: 1px solid blue;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.about-page-education-container h3{
+    padding: 0.4rem 0;
+}
+
+.timeline-years{
+    margin: 0 0.4rem;
+    color: #fff;
+}
+.timeline-title{
+    /* font-size: 14px; */
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.timeline-text{
+    color: #fff;
+    font-family: "poppins";
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@100;200;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15);
+  height: 12vh;
+  background-color: #000000e3;
+  color: antiquewhite;
+}
+.navbar-left h2::first-letter {
+  color: red;
+  font-size: 3rem;
+}
+
+.navbar-left h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: "poppins";
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  font-family: "poppins";
+}
+
+.menu a {
+  color: antiquewhite;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: all 1s ease-in-out;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.menu li {
+  margin: 2rem 0;
+}
+
+/* ScrollToTopButton.css */
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+.scroll-to-top.show {
+  display: block;
+}
+
+.scroll-to-top button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-to-top button:hover {
+  background-color: #777;
+}
