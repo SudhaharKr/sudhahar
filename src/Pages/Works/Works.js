@@ -27,40 +27,84 @@ const Works = () => {
               </Tabs.List>
               <Tabs.Panel className="tabs-all-panel" value="all">
                 <div className="container-one">
-                  <img className="one" src={WeboneyImage}  alt="image"/>
-                  <img className="one" src={HeadphoneImage} alt="img"/>
-                  <img className="one" src={ECommeceImage} alt="img"/>
-                  <img className="one" src={BusinessImage} alt="img"/>
-                  <img className="one" src={CalculatorImage} alt="img"/>
-                  <img className="one" src={TodoListImage} alt="img"/>
-                  <img className="one" src={QRCodeImage} alt="img"/>
-                  <img className="one" src={AJ_InfoteckImage} alt="img"/>
-                  <img className="one" src={SwimmingImage} alt="img"/>
-                  <img className="one" src={ZraImage} alt="img"/>
+                  <img className="one" src={WeboneyImage} alt="web-img" />
+                  <img
+                    className="one"
+                    src={HeadphoneImage}
+                    alt="headphone-img"
+                  />
+                  <img
+                    className="one"
+                    src={ECommeceImage}
+                    alt="e-commerce-img"
+                  />
+                  <img className="one" src={BusinessImage} alt="business-img" />
+                  <img
+                    className="one"
+                    src={CalculatorImage}
+                    alt="calculator-img"
+                  />
+                  <img
+                    className="one"
+                    src={TodoListImage}
+                    alt="todo-list-img"
+                  />
+                  <img className="one" src={QRCodeImage} alt="qrcode-img" />
+                  <img
+                    className="one"
+                    src={AJ_InfoteckImage}
+                    alt="aj-infoteck-img"
+                  />
+                  <img className="one" src={SwimmingImage} alt="swimming-img" />
+                  <img className="one" src={ZraImage} alt="zra-img" />
                 </div>
               </Tabs.Panel>
 
               <Tabs.Panel className="tabs-css-panel" value="css">
                 <div className="container-two">
-                  <img className="two" src={WeboneyImage} alt="img"/>
-                  <img className="two" src={HeadphoneImage} alt="img"/>
-                  <img className="two" src={ECommeceImage} alt="img"/>
-                  <img className="two" src={BusinessImage} alt="img"/>
+                  <img className="two" src={WeboneyImage} alt="web-img" />
+                  <img
+                    className="two"
+                    src={HeadphoneImage}
+                    alt="headphone-img"
+                  />
+                  <img
+                    className="two"
+                    src={ECommeceImage}
+                    alt="e-commerce-img"
+                  />
+                  <img className="two" src={BusinessImage} alt="business-img" />
                 </div>
               </Tabs.Panel>
 
               <Tabs.Panel className="tabs-javascript-panel" value="Javascript">
                 <div className="container-three">
-                  <img className="three" src={CalculatorImage} alt="img"/>
-                  <img className="three" src={TodoListImage} alt="img"/>
+                  <img
+                    className="three"
+                    src={CalculatorImage}
+                    alt="calculator-img"
+                  />
+                  <img
+                    className="three"
+                    src={TodoListImage}
+                    alt="todo-list-img"
+                  />
                 </div>
               </Tabs.Panel>
               <Tabs.Panel className="tabs-react-panel" value="React JS">
                 <div className="container-three">
-                  <img className="four" src={QRCodeImage} alt="img"/>
-                  <img className="four" src={AJ_InfoteckImage} alt="img"/>
-                  <img className="four" src={SwimmingImage} alt="img"/>
-                  <img className="four" src={ZraImage} alt="img"/>
+                  <img className="four" src={QRCodeImage} alt="qrcode-img" />
+                  <img
+                    className="four"
+                    src={AJ_InfoteckImage}
+                    alt="aj-infoteck-img"
+                  />
+                  <img
+                    className="four"
+                    src={SwimmingImage}
+                    alt="swimming-img"
+                  />
+                  <img className="four" src={ZraImage} alt="zra-img" />
                 </div>
               </Tabs.Panel>
             </Tabs>
