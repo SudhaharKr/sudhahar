@@ -141,14 +141,14 @@
   .tabs-css-panel,
   .tabs-javascript-panel,
   .tabs-react-panel {
-    width: 500px;
+    width: 400px;
     display: flex;
     background-color: #202020;
     margin: auto;
     padding-left: 2rem;
   }
   .container-one {
-    padding: 3rem 1rem;
+    margin-right: 6rem;
     width: 1000px;
   }
   .container-two {
@@ -181,9 +181,14 @@
     margin: auto;
     padding-left: 2rem;
   }
+  .tabslist img {
+    width: 300px;
+  }
   .container-one {
     padding: 1rem 0;
     width: 1000px;
+    margin-right: 10rem;
+    /* background-color: red; */
   }
   .container-two {
     padding: 1rem 0;

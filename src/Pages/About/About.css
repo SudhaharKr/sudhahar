@@ -21,19 +21,18 @@
 }
 
 .about-me-image {
-  width: 1200px;
+  width: 800px;
   margin: auto;
-  padding: 2rem 10rem;
-  gap: 2rem;
+  padding: 2rem;
   display: flex;
 }
 .about-page-container img {
-  width: 300px;
+  width: 280px;
   border-radius: 10px;
 }
 
 .right-content {
-  width: 500px;
+  width: 300px;
   padding: 1rem;
   border: 1px solid blue;
   border-radius: 10px;
@@ -150,15 +149,38 @@
     width: 500px;
   }
   .about-me-image {
+    /* width: 300px; */
+    gap: 2rem;
+    /* background-color: #007bff; */
+    display: flex;
+    flex-direction: column;
+  }
+  .right-content {
+    width: 200px;
+  }
+
+  .about-page-education-container {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .about-page-container {
+    padding: 1rem;
+    padding-right: 7rem;
+    /* width: 400px; */
+  }
+  .about-me-image {
     gap: 2rem;
     display: flex;
     flex-direction: column;
   }
   .right-content {
-    width: 320px;
+    width: 300px;
+    margin-right: 4rem;
   }
 
   .about-page-education-container {
     width: 300px;
+    margin-right: 3rem;
   }
 }

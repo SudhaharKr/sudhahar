@@ -75,7 +75,7 @@
 @media (max-width: 500px) {
   .home-page-container {
     width: 500px;
-    padding: 2rem 3rem;
+    padding: 2rem 1.8rem;
   }
 
   .home-page-container span {
