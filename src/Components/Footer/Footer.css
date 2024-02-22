@@ -1,0 +1,12 @@
+.footer-container-section{
+    width: 1345px;
+    background-color: lightslategray;
+    padding: 0.4rem;
+}
+
+.footer-container-section p{
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #f1f1f1;
+}

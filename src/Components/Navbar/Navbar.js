@@ -79,7 +79,7 @@ const Navbar = () => {
         <div className="header-menu">
           <>
             <Drawer
-              position="right"
+              position="left"
               offset={0.4}
               radius="md"
               opened={opened}
