@@ -131,18 +131,28 @@
     width: 1080px;
   }
 }
-@media (max-width:786px){
-  .navbar{
+@media (max-width: 786px) {
+  .navbar {
     width: 786px;
   }
 }
-@media (max-width:500px){
-  .navbar{
+@media (max-width: 500px) {
+  .navbar {
     width: 500px;
   }
 }
-@media (max-width:400px){
-  .navbar{
+@media (max-width: 400px) {
+  .navbar {
     width: 400px;
+  }
+  .menu {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    background-color: #2a2a2a;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    padding: 0 4em;
   }
 }

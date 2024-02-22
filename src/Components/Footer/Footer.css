@@ -10,3 +10,14 @@
     font-weight: 400;
     color: #f1f1f1;
 }
+
+@media (max-width:500px) {
+    .footer-container-section{
+    width: 500px;
+    }
+}
+@media (max-width:400px) {
+    .footer-container-section{
+    width: 400px;
+    }
+}
