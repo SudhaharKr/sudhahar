@@ -51,15 +51,20 @@
   color: #d97b55;
 }
 
-.about-page-container p{
-    font-family: "poppins";
-    text-align: justify;
-    color: #fff;
+.about-page-container p {
+  font-family: "poppins";
+  text-align: justify;
+  color: #fff;
 }
-.info1{
-    display: flex;
-    padding: 1rem 0;
-    gap: 2rem;
+.info1 {
+  display: flex;
+  padding: 1rem 0;
+  gap: 2rem;
+}
+.info2 {
+  display: flex;
+  padding: 1rem 0;
+  gap: 2rem;
 }
 
 .info1 p {
@@ -72,10 +77,10 @@
   color: #007bff; /* Blue color */
   font-family: poppins;
 }
-.info2{
-    display: flex;
-    padding: 1rem 0;
-    gap: 8rem;
+.info2 {
+  display: flex;
+  padding: 1rem 0;
+  /* gap: 8rem; */
 }
 
 .info2 p {
@@ -89,31 +94,71 @@
   font-family: poppins;
 }
 
-.about-page-education-container{
-    width: 660px;
-    margin: auto;
-    border: 1px solid blue;
+.about-page-education-container {
+  width: 660px;
+  margin: auto;
+  border: 1px solid blue;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.about-page-education-container h3 {
+  padding: 0.4rem 0;
+}
+
+.timeline-years {
+  margin: 0 0.4rem;
+  color: #fff;
+}
+.timeline-title {
+  /* font-size: 14px; */
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.timeline-text {
+  color: #fff;
+  font-family: "poppins";
+}
+
+@media (max-width: 786px) {
+  .about-page-container {
+    width: 786px;
+  }
+  .about-me-image {
+    padding-left: 2rem;
+  }
+  .right-content {
+    width: 400px;
+  }
+  .info1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .info2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-page-container {
     padding: 1rem;
-    color: #fff;
-    border-radius: 10px;
-}
+    padding-right: 7rem;
+    width: 500px;
+  }
+  .about-me-image {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-content {
+    width: 320px;
+  }
 
-.about-page-education-container h3{
-    padding: 0.4rem 0;
-}
-
-.timeline-years{
-    margin: 0 0.4rem;
-    color: #fff;
-}
-.timeline-title{
-    /* font-size: 14px; */
-    font-weight: bold;
-    margin-bottom: 12px;
-    color: #fff;
-}
-
-.timeline-text{
-    color: #fff;
-    font-family: "poppins";
+  .about-page-education-container {
+    width: 300px;
+  }
 }

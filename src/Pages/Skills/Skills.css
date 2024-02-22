@@ -65,6 +65,32 @@
   padding: 1rem;
 }
 
-.tooltip-progress-html{
-  
+@media (max-width:786px) {
+  .skills-page-container {
+    width: 786px;
+  }
+  .skill-progress-bar {
+    width: 786px;
+    margin: auto;
+  }
+
+  .progress-bar{
+    width: 600px;
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width:400px) {
+  .skills-page-container {
+    width: 400px;
+  }
+  .skill-progress-bar {
+    width: 786px;
+    margin: auto;
+  }
+
+  .progress-bar{
+    width: 360px;
+    margin: 2rem auto;
+  }
 }

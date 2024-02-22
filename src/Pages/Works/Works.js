@@ -92,7 +92,7 @@ const Works = () => {
                 </div>
               </Tabs.Panel>
               <Tabs.Panel className="tabs-react-panel" value="React JS">
-                <div className="container-three">
+                <div className="container-four">
                   <img className="four" src={QRCodeImage} alt="qrcode-img" />
                   <img
                     className="four"

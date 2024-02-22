@@ -45,3 +45,20 @@
     left: 0; /* End at the original position */
   }
 }
+
+@media (max-width:500px) {
+  .contact-page-container{
+    width: 500px;
+  }
+  .contact-form{
+    width: 400px;
+  }
+}
+@media (max-width:400px) {
+  .contact-page-container{
+    width: 400px;
+  }
+  .contact-form{
+    width: 300px;
+  }
+}
