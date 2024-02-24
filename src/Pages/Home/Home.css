@@ -90,10 +90,13 @@
   .home-page-container {
     width: 400px;
   }
+  .home-page-container h1 {
+    width: 300px;
+  }
   .home-page-container p {
     width: 320px;
   }
-  .info1{
+  .info1 {
     width: 300px;
     /* background-color: red; */
     margin-right: 2rem;

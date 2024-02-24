@@ -8,55 +8,44 @@ const Skills = () => {
       <div className="skills-page">
         <div className="skills-page-container">
           <h2>Skills</h2>
-          <div className="skills-bar">
-          <div className="progress-bar">
-            <span className="span-bar">HTML</span>
-            <Tooltip
-            className="tooltip-progress-html"
-              position="top-end"
-              opened
-              label="90%"
-              // offset={{ mainAxis: 5, crossAxis: 0 }}
-            >
-              <Progress value={90} />
-            </Tooltip>
-          </div>
-          <div className="progress-bar">
-          <span className="span-bar">CSS</span>
-          <Tooltip
-          
-              position="top-end"
-              opened
-              label="85%"
-              // offset={{ mainAxis: 5, crossAxis: 0 }}
-            >
-              <Progress value={85} />
-            </Tooltip>
+          <div className="container">
+            <div className="skill-box">
+              <span className="title">HTML</span>
+              <div className="skill-bar">
+                <span className="skill-per html">
+                  <span className="tooltip">90%</span>
+                </span>
+              </div>
             </div>
-          <div className="progress-bar">
-          <span className="span-bar">Javascript</span>
-          <Tooltip
-              position="top-end"
-              opened
-              label="60%"
-              // offset={{ mainAxis: 5, crossAxis: 0 }}
-            >
-              <Progress value={60} />
-            </Tooltip>
+
+            <div className="skill-box">
+              <span className="title">CSS</span>
+              <div className="skill-bar">
+                <span className="skill-per css">
+                  <span className="tooltip">85%</span>
+                </span>
+              </div>
             </div>
-          <div className="progress-bar">
-          <span className="span-bar">React JS</span>
-          <Tooltip
-              position="top-end"
-              opened
-              label="70%"
-              // offset={{ mainAxis: 5, crossAxis: 0 }}
-            >
-              <Progress value={70} />
-            </Tooltip>
+
+            <div className="skill-box">
+              <span className="title">Javascript</span>
+              <div className="skill-bar">
+                <span className="skill-per javascript">
+                  <span className="tooltip">60%</span>
+                </span>
+              </div>
+            </div>
+
+            <div className="skill-box">
+              <span className="title">React JS</span>
+              <div className="skill-bar">
+                <span className="skill-per react">
+                  <span className="tooltip">75%</span>
+                </span>
+              </div>
             </div>
           </div>
-      </div>
+        </div>
       </div>
     </div>
   );
