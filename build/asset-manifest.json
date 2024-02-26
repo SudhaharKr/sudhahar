@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4004487.css",
+    "main.js": "/static/js/main.57df7aeb.js",
+    "static/media/swimming.png": "/static/media/swimming.3ba797abe23d03e3d0e1.png",
+    "static/media/business.png": "/static/media/business.35fe5fc6753e5ef762eb.png",
+    "static/media/weboney.png": "/static/media/weboney.0bd28f8b5c7a4dbb9d53.png",
+    "static/media/headphone.png": "/static/media/headphone.a14c1fa3febaccc1561b.png",
+    "static/media/commerce.png": "/static/media/commerce.173ffcc78b932954614e.png",
+    "static/media/zra.png": "/static/media/zra.fa89d106c1e1c8bc4937.png",
+    "static/media/AJ_Infoteck.png": "/static/media/AJ_Infoteck.87d32ac378404f7d0246.png",
+    "static/media/QR Code Generator.png": "/static/media/QR Code Generator.b7d1d4de13d7dc2a3fd5.png",
+    "static/media/krs_pic.jpeg": "/static/media/krs_pic.6400f18a9a532067f7c7.jpeg",
+    "static/media/calculator.png": "/static/media/calculator.c3f6cd593ee13f369753.png",
+    "static/media/todo-list.png": "/static/media/todo-list.87389e14e08045646287.png",
+    "index.html": "/index.html",
+    "main.e4004487.css.map": "/static/css/main.e4004487.css.map",
+    "main.57df7aeb.js.map": "/static/js/main.57df7aeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4004487.css",
+    "static/js/main.57df7aeb.js"
+  ]
+}
